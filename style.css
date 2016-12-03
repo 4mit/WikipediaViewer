@@ -1,0 +1,22 @@
+
+.left-sidebar{
+	background-color:#1A1818;
+	color:#F8F0F1;
+	
+	margin-left:0px;
+}
+.content{
+	background-color:#1A1818;
+	color:green;	
+	margin-left:0px;
+}
+.content h2{color:#FDFDFD;}
+body{
+	background-color:#A5A5A5;
+}
+.searsh-result{
+	color:black;
+	transition:1s ease-in;
+}
+.anim{
+	background-color:#2DCFF8;}
