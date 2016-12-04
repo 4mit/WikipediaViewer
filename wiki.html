@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html><head>
+<head>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="fetchData.js"></script>
-<link href="style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -34,9 +31,12 @@
         	<div class="" >
             	<h1>Wikipedia Viewer version 1.0</h1>        		
                 	<h4><a href="https://en.wikipedia.org/wiki/Special:Random" target="_self" title="Click Here if you want to see any random article from wikipedia ">Random Article From Wikipedia </a></h4>
-                    <input type="text" id="search" placeholder="Search title Here " class="form-control"/>
-                    <br/>
-                    <img class="img img-responsive img-thumbnail" src="http://www.dailygalaxy.com/photos/uncategorized/wikipedialogo_bwb.jpg">               
+            <form>        
+            <input type="text" id="search" placeholder="Search title Here " class="form-control"/>
+              <button type="button" class="btn btn-block btn-success " id="search_res">Search</button> 
+            </form>
+            <br/>
+            <img class="img img-responsive img-thumbnail" src="http://www.dailygalaxy.com/photos/uncategorized/wikipedialogo_bwb.jpg">               
         	</div>
                 <br/>
                 <br/>	
@@ -48,7 +48,5 @@
             </div>
 		</div>
     </div>
-</div>
-
+  </div>
 </body>
-</html>
